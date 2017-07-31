@@ -1,0 +1,79 @@
+*{	transition: all .1s ease-in;
+	box-sizing: border-box;	
+}
+
+html {
+	font-family: "Arial", sans-serif;
+	background-color: #f1f1f1;
+}
+
+body {
+	padding: 20px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+h3 { 
+	color: #c2c2c2;
+	margin: 10px 0;
+	text-transform: uppercase;
+}
+
+
+input {
+	width: 80%;
+	padding: 20px 0 20px 0;
+	font-size: 80px;
+	font-weight: 900;
+	background-color: #f1f1f1;
+	border: none;
+	color: #ec5a62;
+	background: transparent;
+
+}
+
+input:hover {
+	opacity: .5;
+}
+
+
+
+a {
+	text-decoration: none;
+	color: #c2c2c2;
+	padding: 40px 20px;
+
+}
+
+a:hover {
+	color: #ec5a62;
+}
+
+.column-left, .column-center, .column-right {
+    display: inline-block;
+    width: 30%;
+    margin-top: 20px;
+}
+
+.column-center {
+	margin: 0 15px 0 15px;
+}
+
+.photo {
+	border-radius: 50%;
+}
+
+.people li:hover {
+	background-color: rgba(118,117,128,0.1);
+}
+
+.popular li:hover {
+	
+	background-color: rgba(118,117,128,0.1);
+}
+
+.recent li:hover {
+	
+	background-color: rgba(118,117,128,0.1);
+}
+
